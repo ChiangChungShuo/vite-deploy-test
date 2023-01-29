@@ -1,0 +1,1 @@
+import{_ as s,o,c as a,a as n}from"./index-bdbf3243.js";const _={data(){return{data:{}}},mounted(){console.log("這是產品的環境");const t="https://randomuser.me/api/";this.$http.get(t).then(e=>{this.data=e.data.results[0]})}},c={class:"about"},r=n("h1",null,"This is an about page",-1),d=[r];function i(t,e,u,l,p,h){return o(),a("div",c,d)}const f=s(_,[["render",i]]);export{f as default};
